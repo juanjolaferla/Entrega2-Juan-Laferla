@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-link{
+    font-size: 25px;
+}
+.bag{
+    display: inline-block;
+    font-size: 25px;
+}
+/*Responsive*/
+@media screen and ( max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    }
+}
