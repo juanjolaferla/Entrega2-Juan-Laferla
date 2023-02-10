@@ -4,13 +4,52 @@
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+/*Estilo Navbar*/
 .nav-link{
-    font-size: 25px;
+    font-size: 40px;
 }
 .bag{
     display: inline-block;
     font-size: 25px;
 }
+.d-block{
+    width: 70%;   
+}
+/*seccion descuntos*/
+.descuento-flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+.descuento{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    
+}
+/*Catalogo Man*/
+.shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+.shoe{
+    width: 400px;
+}
+button{
+    background: black;
+    color: white;
+  }
+
+
+
 /*Responsive*/
 @media screen and ( max-width: 767px) {
     .navbar-brand{
