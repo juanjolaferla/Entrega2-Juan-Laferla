@@ -15,6 +15,7 @@
 .d-block{
     width: 70%;   
 }
+
 /*Carrusel*/
 .carrusel{
     margin-top: 100px;
@@ -36,6 +37,19 @@
     font-size: 100px;
     
 }
+.container-news{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px;
+    
+}
+.news{
+    border: black solid 2px;
+    width: 300px;
+    justify-content: center;
+    padding: 10px;
+}
 /*Catalogo Man*/
 .shop{
     display: flex;
@@ -51,13 +65,37 @@
 button{
     background: black;
     color: white;
+    border-radius: 5px;
   }
-/*footer*/
-
+  button:hover{
+    background-color: rgb(221, 81, 81);
+    color: black;
+    border: none;
+  }
+/*Pie de pagina*/
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.bi { 
+    font-size: 40px;
+    color:rgb(53, 52, 52);
+    margin: 20px;
+}
+.copy{
+    text-align: center;
+}
 
 /*Responsive*/
 @media screen and ( max-width: 767px) {
     .navbar-brand{
         display: none;
+    }
+    .descuento{
+        font-size: 50px;
+    }
+    .redes{
+        justify-content: center;
     }
 }
