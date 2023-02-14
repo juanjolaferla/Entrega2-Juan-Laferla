@@ -18,7 +18,7 @@
 
 /*Carrusel*/
 .carrusel{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 /*seccion descuntos*/
 .descuento-flex
@@ -39,6 +39,7 @@
     font-size: 100px;
     color: white;
 }
+/*Seccion News*/
 .container-news{
     display: flex;
     justify-content: center;
@@ -48,14 +49,13 @@
 }
 .news{
     border: black solid 2px;
-    width: 300px;
+    width: 600px;
+    height: 100px;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
+    font-size: 20px;
 }
-.suscribite{
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
+
 /*Catalogo Man*/
 .shop{
     display: flex;
@@ -83,7 +83,7 @@
 button{
     background: black;
     color: white;
-    border-radius: 5px;
+   
   }
   button:hover{
     background-color: white;
