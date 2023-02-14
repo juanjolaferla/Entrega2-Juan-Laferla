@@ -18,7 +18,7 @@
 
 /*Carrusel*/
 .carrusel{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 /*seccion descuntos*/
 .descuento-flex
@@ -115,5 +115,9 @@ button{
     }
     .redes{
         justify-content: center;
+    }
+    .news{
+        padding-top: 20px;
+        font-size: 10px;
     }
 }
