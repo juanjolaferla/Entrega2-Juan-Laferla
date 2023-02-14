@@ -29,13 +29,15 @@
     margin-top: 10px;
     width: auto;
     height: auto;
-}
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+      }
+
 .descuento{
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-size: 100px;
-    
+    color: white;
 }
 .container-news{
     display: flex;
@@ -50,6 +52,10 @@
     justify-content: center;
     padding: 10px;
 }
+.suscribite{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 /*Catalogo Man*/
 .shop{
     display: flex;
@@ -61,6 +67,18 @@
 }
 .shoe{
     width: 400px;
+   
+}
+.shoes{
+   margin: 20px;
+}
+.shoe-zap1{
+    width: 400px;
+    padding-top: 100px;
+}
+.shoe-zap6{
+    width: 400px;
+    margin-top: 50px;
 }
 button{
     background: black;
@@ -68,7 +86,7 @@ button{
     border-radius: 5px;
   }
   button:hover{
-    background-color: rgb(221, 81, 81);
+    background-color: white;
     color: black;
     border: none;
   }
